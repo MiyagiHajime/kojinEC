@@ -1,0 +1,74 @@
+.nav-form button {
+	margin: 0px 2px;
+}
+
+.center {
+	text-align: center;
+}
+
+.center2 {
+	margin-left: 550px;
+	margin-right: auto;
+}
+
+.center3 {
+	margin-left: 490px;
+	margin-right: auto;
+}
+
+/*Buy_Historyの購入ボタンの色、枠線、ボタンの幅*/
+.bottonwidth {
+	width: 600px;
+	border-radius: 10px;
+	border: 3px #0733fc solid;
+}
+
+.right {
+	margin-left: auto;
+	margin-right: 280px;
+}
+
+.nav-form2 button {
+	margin: 0px 10px;
+}
+
+.konyubtn button {
+	width: 500px;
+}
+
+.chkbox {
+	margin: 10px 20px 20px 0px;
+}
+/* ラベルのスタイル　*/ /* chkboxのCSS　*/
+.chkbox label {
+	padding-left: 30px; /* ラベルの位置 */
+	font-size: 22px;
+	line-height: 22px;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+}
+
+/* ボックスのスタイル */
+.chkbox label:before {
+	content: '';
+	width: 22px; /* ボックスの横幅 */
+	height: 22px; /* ボックスの縦幅 */
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	background-color: #fff;
+	box-shadow: inset 1px 2px 3px 0px #000;
+	border-radius: 6px 6px 6px 6px;
+}
+/* 元のチェックボックスを表示しない */
+.chkbox input[type=checkbox] {
+	display: none;
+}
+/* チェックした時のスタイル */
+.chkbox input[type=checkbox]:checked+label:before {
+	content: '\2713'; /* チェックの文字 */
+	font-size: 24px; /* チェックのサイズ */
+	color: #0e14ff; /* チェックの色 */
+	background-color: #ff9a93; /* チェックした時の色 */
+}

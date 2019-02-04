@@ -1,0 +1,16 @@
+/*テキストを中央に寄せる。*/
+.text-center {
+	text-align: center;
+}
+/*テキストカラーの変更 赤*/
+.price-color {
+	color: #ff0000;
+}
+/*formの中の文字を右よりに*/
+.tel-align {
+	text-align: right;
+}
+
+.haba {
+	text-align: right;
+}

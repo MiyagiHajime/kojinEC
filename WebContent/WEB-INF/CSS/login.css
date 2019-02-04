@@ -1,0 +1,87 @@
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.right2 {
+	margin-left: 300px;
+	margin-right: 20px;
+}
+
+.haba {
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px
+}
+
+.left {
+	text-align: right;
+}
+
+.example2 {
+	width: 220px;
+}
+
+.sample-box {
+	width: 300px;
+	height: 80px;
+	background: #ced;
+	border: 2px solid #a7e;
+}
+
+/*sample1はinputの枠の長さの指定*/
+.sample1 {
+	width: 200px;
+	height: 30px;
+}
+
+/*sample5はinputの枠の色を指定*/
+.sample5 {
+	border: 2px yellow solid;
+}
+
+.table td {
+	padding: 8px 20px;
+}
+
+.table {
+	border: 4px solid #9e738e;
+	border-collapse: separate;
+	border-radius: 5px;
+	border-spacing: 10;
+
+}
+/*実線 1px 白*/
+.table th, table td {
+	border: solid 1px #fbf7fa;
+}
+
+/*tableの横幅*/
+.table {
+	width: 430px;
+}
+
+.button {
+	margin: 0px 2px;
+}
+
+.th1 {
+	height: 60px;
+}
+
+.table2 {
+	width: 430px;
+}
+.table th{
+}
+
+
+
+.delivery-table th {
+	background-color: red;
+	width: 300px;
+	text-align: center;
+}

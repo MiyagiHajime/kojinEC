@@ -1,0 +1,27 @@
+.example {
+	margin: 10px auto;
+	width: 400px;
+}
+
+.centr {
+	text-align: center
+}
+
+.sample-box {
+	width: 300px;
+	height: 80px;
+	background: #ced;
+	border: 2px solid #a7e;
+}
+
+.table1 th {
+	width: 80%;
+	width: 10%;
+	width: 10%;
+}
+
+.table1 {
+	border: 6px solid black;
+	margin: auto;
+
+}

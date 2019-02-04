@@ -1,0 +1,44 @@
+/*tableの横幅を変える*/
+.buyhistory {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.BuyResult {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.BuyResult th {
+	width: 20%;
+	width: 40%;
+	width: 40%;
+}
+.back-col th {
+	background: #59c9b8;
+}
+
+.BuyResult2 {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.BuyResult2 th {
+	width: 50%;
+	width: 50%;
+	text-align: center;
+}
+
+/*マテリアライズのアイコンの大きさ*/
+.material-icons.md-36 {
+	font-size: 36px;
+}
+
+/*formタグの線の色、線の形変を更*/
+input.border-color {
+	border: 3px #b378cb solid; /*線の色と線の本数を変更*/
+	border-radius: 10px; /*線の形を丸く変更*/
+}
